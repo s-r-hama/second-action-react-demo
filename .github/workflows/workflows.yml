@@ -2,7 +2,7 @@ name: test project
 on: push
 jobs: 
   test: 
-    runs_on: ubuntu_latest
+    runs-on: ubuntu_latest
     steps: 
       - name: Get code
         uses: actions/checkout@v4
