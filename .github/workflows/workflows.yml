@@ -2,7 +2,7 @@ name: test project
 on: push
 jobs: 
   test: 
-    runs-on: ubuntu_latest
+    runs-on: ubuntu-latest
     steps: 
       - name: test workflow
         run: echo "Testing workflow"
