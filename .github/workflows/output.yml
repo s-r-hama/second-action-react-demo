@@ -2,7 +2,7 @@ name: output information
 on: workflow_dispatch
 jobs:
   info:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Output Github context
         run: echo "${{toJSON(github)}}" #github key : one of the official available keys in the context of such a job. github is a reserved keyword here
